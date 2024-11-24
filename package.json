@@ -1,7 +1,11 @@
 {
   "name": "@kurniawan26/common",
-  "version": "1.0.2",
-  "main": "index.js",
+  "version": "1.0.3",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "del ./build"

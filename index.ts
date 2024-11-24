@@ -11,3 +11,5 @@ const color: Color = {
 };
 
 console.log(color.red); // 255
+
+export default color;
